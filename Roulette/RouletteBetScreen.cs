@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Roulette
 {
-    public partial class Form1 : Form
+    public partial class RouletteBetScreen : Form
     {
-        public Form1()
+        public RouletteBetScreen()
         {
             InitializeComponent();
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world");
         }
     }
 }

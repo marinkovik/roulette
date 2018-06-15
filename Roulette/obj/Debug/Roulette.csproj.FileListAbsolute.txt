@@ -1,1 +1,9 @@
 c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\bin\Debug\Roulette.exe.config
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\bin\Debug\Roulette.exe
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\bin\Debug\Roulette.pdb
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.csprojResolveAssemblyReference.cache
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.RouletteBetScreen.resources
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.Properties.Resources.resources
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.csproj.GenerateResource.Cache
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.exe
+c:\users\slobodan\documents\visual studio 2015\Projects\Roulette\Roulette\obj\Debug\Roulette.pdb
