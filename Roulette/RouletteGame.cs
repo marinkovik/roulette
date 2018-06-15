@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Roulette
 {
     [Serializable]
-    class RouletteGame
+    public class RouletteGame
     {
         public long credits;
         public long bets;
