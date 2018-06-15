@@ -677,6 +677,7 @@
             this.bigSeries.Size = new System.Drawing.Size(86, 30);
             this.bigSeries.TabIndex = 37;
             this.bigSeries.UseVisualStyleBackColor = false;
+            this.bigSeries.Click += new System.EventHandler(this.bigSeries_Click);
             // 
             // smallSeries
             // 
@@ -691,6 +692,7 @@
             this.smallSeries.Size = new System.Drawing.Size(86, 30);
             this.smallSeries.TabIndex = 38;
             this.smallSeries.UseVisualStyleBackColor = false;
+            this.smallSeries.Click += new System.EventHandler(this.smallSeries_Click);
             // 
             // orphans
             // 
@@ -705,6 +707,7 @@
             this.orphans.Size = new System.Drawing.Size(86, 30);
             this.orphans.TabIndex = 39;
             this.orphans.UseVisualStyleBackColor = false;
+            this.orphans.Click += new System.EventHandler(this.orphans_Click);
             // 
             // zeroSpiel
             // 
@@ -719,6 +722,7 @@
             this.zeroSpiel.Size = new System.Drawing.Size(86, 30);
             this.zeroSpiel.TabIndex = 40;
             this.zeroSpiel.UseVisualStyleBackColor = false;
+            this.zeroSpiel.Click += new System.EventHandler(this.zeroSpiel_Click);
             // 
             // RouletteBetScreen
             // 
@@ -771,6 +775,7 @@
             this.Name = "RouletteBetScreen";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.RouletteBetScreen_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RouletteBetScreen_MouseClick_1);
             this.ResumeLayout(false);
 
         }
