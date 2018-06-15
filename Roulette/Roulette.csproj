@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chip.cs" />
+    <Compile Include="ChipsDoc.cs" />
     <Compile Include="RouletteBetScreen.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -18,9 +18,8 @@ namespace Roulette
         }
 
         //Adding the chips
-        public void AddChip(int width, int height, int number)
+        public void AddChip(Chip c)
         {
-            Chip c = new Chip(width, height, number);
             Chips.Add(c);
         }
 
