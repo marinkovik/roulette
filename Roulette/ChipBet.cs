@@ -21,7 +21,6 @@ namespace Roulette
             Digit = digit;
             Center = center;
             isSelected = false;
-
         }
 
         public void Draw(Graphics g)

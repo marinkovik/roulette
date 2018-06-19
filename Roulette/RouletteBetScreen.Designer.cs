@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RouletteBetScreen));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -70,6 +71,23 @@
             this.smallSeries = new System.Windows.Forms.Button();
             this.orphans = new System.Windows.Forms.Button();
             this.zeroSpiel = new System.Windows.Forms.Button();
+            this.onetotwelve = new System.Windows.Forms.Button();
+            this.thirteentotwentyfour = new System.Windows.Forms.Button();
+            this.twentyfivetothirtysix = new System.Windows.Forms.Button();
+            this.onetoeighteen = new System.Windows.Forms.Button();
+            this.even = new System.Windows.Forms.Button();
+            this.redBtn = new System.Windows.Forms.Button();
+            this.blackBtn = new System.Windows.Forms.Button();
+            this.odd = new System.Windows.Forms.Button();
+            this.nineteentothirtysix = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -724,6 +742,227 @@
             this.zeroSpiel.UseVisualStyleBackColor = false;
             this.zeroSpiel.Click += new System.EventHandler(this.zeroSpiel_Click);
             // 
+            // onetotwelve
+            // 
+            this.onetotwelve.BackColor = System.Drawing.Color.Transparent;
+            this.onetotwelve.FlatAppearance.BorderSize = 0;
+            this.onetotwelve.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.onetotwelve.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.onetotwelve.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.onetotwelve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.onetotwelve.Location = new System.Drawing.Point(215, 270);
+            this.onetotwelve.Name = "onetotwelve";
+            this.onetotwelve.Size = new System.Drawing.Size(200, 57);
+            this.onetotwelve.TabIndex = 41;
+            this.onetotwelve.UseVisualStyleBackColor = false;
+            this.onetotwelve.Click += new System.EventHandler(this.onetotwelve_Click);
+            // 
+            // thirteentotwentyfour
+            // 
+            this.thirteentotwentyfour.BackColor = System.Drawing.Color.Transparent;
+            this.thirteentotwentyfour.FlatAppearance.BorderSize = 0;
+            this.thirteentotwentyfour.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.thirteentotwentyfour.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.thirteentotwentyfour.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.thirteentotwentyfour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.thirteentotwentyfour.Location = new System.Drawing.Point(429, 270);
+            this.thirteentotwentyfour.Name = "thirteentotwentyfour";
+            this.thirteentotwentyfour.Size = new System.Drawing.Size(224, 57);
+            this.thirteentotwentyfour.TabIndex = 42;
+            this.thirteentotwentyfour.UseVisualStyleBackColor = false;
+            this.thirteentotwentyfour.Click += new System.EventHandler(this.thirteentotwentyfour_Click);
+            // 
+            // twentyfivetothirtysix
+            // 
+            this.twentyfivetothirtysix.BackColor = System.Drawing.Color.Transparent;
+            this.twentyfivetothirtysix.FlatAppearance.BorderSize = 0;
+            this.twentyfivetothirtysix.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.twentyfivetothirtysix.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.twentyfivetothirtysix.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.twentyfivetothirtysix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twentyfivetothirtysix.Location = new System.Drawing.Point(669, 270);
+            this.twentyfivetothirtysix.Name = "twentyfivetothirtysix";
+            this.twentyfivetothirtysix.Size = new System.Drawing.Size(205, 57);
+            this.twentyfivetothirtysix.TabIndex = 43;
+            this.twentyfivetothirtysix.UseVisualStyleBackColor = false;
+            this.twentyfivetothirtysix.Click += new System.EventHandler(this.twentyfivetothirtysix_Click);
+            // 
+            // onetoeighteen
+            // 
+            this.onetoeighteen.BackColor = System.Drawing.Color.Transparent;
+            this.onetoeighteen.FlatAppearance.BorderSize = 0;
+            this.onetoeighteen.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.onetoeighteen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.onetoeighteen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.onetoeighteen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.onetoeighteen.Location = new System.Drawing.Point(195, 333);
+            this.onetoeighteen.Name = "onetoeighteen";
+            this.onetoeighteen.Size = new System.Drawing.Size(110, 43);
+            this.onetoeighteen.TabIndex = 44;
+            this.onetoeighteen.UseVisualStyleBackColor = false;
+            this.onetoeighteen.Click += new System.EventHandler(this.onetoeighteen_Click);
+            // 
+            // even
+            // 
+            this.even.BackColor = System.Drawing.Color.Transparent;
+            this.even.FlatAppearance.BorderSize = 0;
+            this.even.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.even.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.even.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.even.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.even.Location = new System.Drawing.Point(311, 333);
+            this.even.Name = "even";
+            this.even.Size = new System.Drawing.Size(114, 43);
+            this.even.TabIndex = 45;
+            this.even.UseVisualStyleBackColor = false;
+            this.even.Click += new System.EventHandler(this.even_Click);
+            // 
+            // redBtn
+            // 
+            this.redBtn.BackColor = System.Drawing.Color.Transparent;
+            this.redBtn.FlatAppearance.BorderSize = 0;
+            this.redBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.redBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.redBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.redBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.redBtn.Location = new System.Drawing.Point(431, 333);
+            this.redBtn.Name = "redBtn";
+            this.redBtn.Size = new System.Drawing.Size(110, 43);
+            this.redBtn.TabIndex = 46;
+            this.redBtn.UseVisualStyleBackColor = false;
+            this.redBtn.Click += new System.EventHandler(this.redBtn_Click);
+            // 
+            // blackBtn
+            // 
+            this.blackBtn.BackColor = System.Drawing.Color.Transparent;
+            this.blackBtn.FlatAppearance.BorderSize = 0;
+            this.blackBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.blackBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.blackBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.blackBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.blackBtn.Location = new System.Drawing.Point(543, 333);
+            this.blackBtn.Name = "blackBtn";
+            this.blackBtn.Size = new System.Drawing.Size(110, 43);
+            this.blackBtn.TabIndex = 47;
+            this.blackBtn.UseVisualStyleBackColor = false;
+            this.blackBtn.Click += new System.EventHandler(this.blackBtn_Click);
+            // 
+            // odd
+            // 
+            this.odd.BackColor = System.Drawing.Color.Transparent;
+            this.odd.FlatAppearance.BorderSize = 0;
+            this.odd.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.odd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.odd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.odd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.odd.Location = new System.Drawing.Point(669, 333);
+            this.odd.Name = "odd";
+            this.odd.Size = new System.Drawing.Size(110, 43);
+            this.odd.TabIndex = 48;
+            this.odd.UseVisualStyleBackColor = false;
+            this.odd.Click += new System.EventHandler(this.odd_Click);
+            // 
+            // nineteentothirtysix
+            // 
+            this.nineteentothirtysix.BackColor = System.Drawing.Color.Transparent;
+            this.nineteentothirtysix.FlatAppearance.BorderSize = 0;
+            this.nineteentothirtysix.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.nineteentothirtysix.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.nineteentothirtysix.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.nineteentothirtysix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nineteentothirtysix.Location = new System.Drawing.Point(785, 333);
+            this.nineteentothirtysix.Name = "nineteentothirtysix";
+            this.nineteentothirtysix.Size = new System.Drawing.Size(110, 43);
+            this.nineteentothirtysix.TabIndex = 49;
+            this.nineteentothirtysix.UseVisualStyleBackColor = false;
+            this.nineteentothirtysix.Click += new System.EventHandler(this.nineteentothirtysix_Click);
+            // 
+            // button38
+            // 
+            this.button38.Location = new System.Drawing.Point(91, 586);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(214, 63);
+            this.button38.TabIndex = 50;
+            this.button38.Text = "Insert credits";
+            this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(402, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 25);
+            this.label1.TabIndex = 51;
+            this.label1.Text = "1000";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(402, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 25);
+            this.label2.TabIndex = 52;
+            this.label2.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(402, 59);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(23, 25);
+            this.label3.TabIndex = 53;
+            this.label3.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(849, 92);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(23, 25);
+            this.label4.TabIndex = 54;
+            this.label4.Text = "0";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(98, 92);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(214, 25);
+            this.label5.TabIndex = 55;
+            this.label5.Text = "Please, place your bets";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(604, 25);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 25);
+            this.label6.TabIndex = 56;
+            // 
             // RouletteBetScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -731,6 +970,22 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 661);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button38);
+            this.Controls.Add(this.nineteentothirtysix);
+            this.Controls.Add(this.odd);
+            this.Controls.Add(this.blackBtn);
+            this.Controls.Add(this.redBtn);
+            this.Controls.Add(this.even);
+            this.Controls.Add(this.onetoeighteen);
+            this.Controls.Add(this.twentyfivetothirtysix);
+            this.Controls.Add(this.thirteentotwentyfour);
+            this.Controls.Add(this.onetotwelve);
             this.Controls.Add(this.zeroSpiel);
             this.Controls.Add(this.orphans);
             this.Controls.Add(this.smallSeries);
@@ -772,11 +1027,14 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "RouletteBetScreen";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.RouletteBetScreen_Paint);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RouletteBetScreen_MouseClick_1);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -823,6 +1081,23 @@
         private System.Windows.Forms.Button smallSeries;
         private System.Windows.Forms.Button orphans;
         private System.Windows.Forms.Button zeroSpiel;
+        private System.Windows.Forms.Button onetotwelve;
+        private System.Windows.Forms.Button thirteentotwentyfour;
+        private System.Windows.Forms.Button twentyfivetothirtysix;
+        private System.Windows.Forms.Button onetoeighteen;
+        private System.Windows.Forms.Button even;
+        private System.Windows.Forms.Button redBtn;
+        private System.Windows.Forms.Button blackBtn;
+        private System.Windows.Forms.Button odd;
+        private System.Windows.Forms.Button nineteentothirtysix;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
