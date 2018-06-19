@@ -124,7 +124,28 @@ private void button36_Click(object sender, EventArgs e)
         public int[] redNumbers = new int[18] { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
         public int[] blackNumbers = new int[18] { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
 ```
-
+```
+ foreach (int n in blackNumbers)
+            {
+                if (numbers[y % 37] == n)
+                {
+                label1.BackColor = Color.Black;
+                break;
+                }
+            }
+            foreach (int n in redNumbers)
+            {
+                if (numbers[y % 37] == n)
+                {
+                    label1.BackColor = Color.Red;
+                    break;
+                }
+            }
+            if(numbers[y%37] == 0)
+            {
+                label1.BackColor = Color.Green;
+            }
+```
 Тајмерот на почетокот има интервал од 100 но со тек на секундите се успорува со што визуелизираме вистинско вртење на топче во SpinningWheel.
 ```
 if (timerCall % 10 == 0)
